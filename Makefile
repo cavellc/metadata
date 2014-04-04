@@ -1,7 +1,7 @@
 encrypt:
-	tar zcvf - ec2 docker.io | gpg --encrypt --recipient michael@gilt.com --recipient ionathan@gmail.com --recipient val.dumitrescu@gmail.com -o metadata.tar.gz.gpg
+	tar zcvf - ec2 docker.io drone | gpg --encrypt --recipient michael@gilt.com --recipient ionathan@gmail.com --recipient val.dumitrescu@gmail.com -o metadata.tar.gz.gpg
 
 decrypt:
-	gpg -o - metadata.tar.gz.gpg | tar xv -
+	gpg -o - metadata.tar.gz.gpg | tar xvz -
 
 .PHONY: encrypt decrypt
