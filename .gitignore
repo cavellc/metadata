@@ -1,4 +1,6 @@
-ec2/
-docker.io/
-metadata.tar.gz
-drone/
+# Ignore everything except the few files we whitelist
+*
+!.gitignore
+!README.md
+!Makefile
+!*gpg
