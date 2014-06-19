@@ -1,5 +1,6 @@
 # Ignore everything except the few files we whitelist
 *
+!keys/
 !.gitignore
 !README.md
 !Makefile
