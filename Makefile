@@ -9,5 +9,6 @@ sync:
 
 sync-cave:
 	aws s3 cp ionblaster/cavellc/.ionblaster.json s3://cavellc-metadata/ionblaster/cavellc/.ionblaster.json
+	aws s3 cp ionblaster/cavellc/default.json s3://cavellc-metadata/ionblaster/cavellc/default.json
 
 .PHONY: encrypt decrypt sync
