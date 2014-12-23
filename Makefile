@@ -1,5 +1,5 @@
 encrypt:
-	tar zcvf - ec2 sendgrid docker.io drone ionblaster | gpg --encrypt --recipient val.dumitrescu@gmail.com --recipient praszewski@gilt.com -o metadata.tar.gz.gpg
+	tar zcvf - ec2 sendgrid docker.io drone ionblaster | gpg --encrypt --recipient val.dumitrescu@gmail.com -o metadata.tar.gz.gpg
 
 decrypt:
 	gpg -o - metadata.tar.gz.gpg | tar xvz
