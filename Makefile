@@ -11,6 +11,7 @@ sync-cave:
 	aws s3 cp ionblaster/cavellc/.ionblaster-test.json s3://cavellc-metadata/ionblaster/cavellc/.ionblaster-test.json
 	aws s3 cp ionblaster/cavellc/default.json s3://cavellc-metadata/ionblaster/cavellc/default.json
 	aws s3 cp ionblaster/cavellc/perftest-metadata s3://cavellc-perftest/metadata
+	aws s3 cp ionblaster/cavellc/apitest.json s3://cavellc-metadata/ionblaster/cavellc/apitest.json
 
 sync-ib:
 	aws s3 cp ionblaster/ionblaster/.ionblaster.json s3://cavellc-metadata/ionblaster/ionblaster/.ionblaster.json
