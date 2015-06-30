@@ -14,6 +14,9 @@ sync-cave:
 	aws s3 cp ionblaster/cavellc/apitest.json s3://cavellc-metadata/ionblaster/cavellc/apitest.json
 	aws s3 cp ionblaster/cavellc/limited-access.json s3://cavellc-metadata/ionblaster/cavellc/limited-access.json
 
+sync-calatrava:
+	aws s3 cp ionblaster/calatrava/.ionblaster.json s3://cavellc-metadata/ionblaster/calatrava/.ionblaster.json
+
 sync-ib:
 	aws s3 cp ionblaster/ionblaster/.ionblaster.json s3://cavellc-metadata/ionblaster/ionblaster/.ionblaster.json
 
